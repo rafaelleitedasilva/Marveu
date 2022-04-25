@@ -34,6 +34,7 @@ a{
     height: 200px;
     margin-top: 0px !important;
     object-fit: cover;
+    background-color: transparent !important;
     text-align: center;
     padding: 5px;
 }
@@ -41,6 +42,7 @@ a{
 .img-fluid{
     width: 240px !important;
     height: 100% !important;
+    background-color: transparent !important;
     object-fit: cover;
     border-radius: 0px 0px 0px 50px;
 }
@@ -155,8 +157,8 @@ div#imagens>img:hover{
         padding: 5px;
     }
 
-    .img-fluid{
-        width: 400px !important;
+    img.img-fluid{
+        width: 350px !important;
         height: 100% !important;
         object-fit: cover;
         border-radius: 0px 0px 0px 50px;
