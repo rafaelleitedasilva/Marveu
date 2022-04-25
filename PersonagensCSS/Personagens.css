@@ -144,6 +144,18 @@ div#imagens>img:hover{
     height: 146px !important;
     background-color: #1f202200;
     }
+    .texto>h1{
+        font-size: 20px;
+    }
+    .texto>p{
+        font-size: 18px;
+    }
+    #imagens>button>h1{
+    font-size: 25px;
+    }
+    #imagens >img{
+        margin: 2px 2px 2px 2px;
+    }
 }
 
 @media screen and (min-width:1500px){
