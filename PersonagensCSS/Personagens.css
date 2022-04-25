@@ -1,0 +1,206 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@1,300&family=Noto+Serif:ital@1&family=Permanent+Marker&display=swap');
+
+:root{
+    --cor-fundo: rgba(32, 30, 30, 0.932);
+    --cor-letras: rgb(190, 49, 49);
+    --fonte-Marvel:'Josefin Sans', sans-serif;
+    --fonte-normal:'Noto Serif', serif;
+    --fonte-titulo:'Permanent Marker', cursive;
+    --fonte-destaque:'Bebas Neue', cursive;
+}
+
+body{
+    background-color:rgba(0, 0, 0, 0.855) ;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*EDITANDO A SEGUNDA NAVBAR*/
+.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top{
+    display: flex !important;
+    justify-content: center !important;
+    width: 100% !important;
+    margin-top: 127.5px;
+}
+
+/*EDITANDO A PAGINA*/
+
+.imagem{
+    display: inline-flex;
+    width: 100%;
+    height: 200px;
+    margin-top: 0px !important;
+    object-fit: cover;
+    text-align: center;
+    padding: 5px;
+}
+
+.img-fluid{
+    width: 240px !important;
+    height: 100% !important;
+    object-fit: cover;
+    border-radius: 0px 0px 0px 50px;
+}
+
+.texto{
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    height: 100%;
+    margin-top: 6%;
+    color: white;
+    border-radius: 3px;
+}
+
+p{
+    font-family: var(--fonte-Marvel);
+    font-size: 30px;
+}
+
+h1{
+    font-family: var(--fonte-titulo);
+}
+
+button#imagens{
+    text-align: center;
+    font-size: 0px;
+    background-color: transparent !important;
+    border: 0px !important;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px !important;
+}
+
+button#imagens>h1{
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+    font-family: var(--fonte-titulo);
+}
+button#imagens2{
+    background-color: transparent;
+    border: 0;
+}
+
+div.maisImagens{
+    margin: auto;
+    text-align: center;
+}
+
+p#imagens{
+    font-size: 250px;
+    color: white;
+    margin-top: -20px;
+    text-decoration: none;
+    line-height: 2px;
+    margin-left: -20px;
+}
+
+p#imagens2{
+    font-size: 80px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+div#imagens{
+    display: block;
+    padding: 20px;
+    text-align: center !important;
+    margin-bottom: -20px;
+}
+div#imagens>h1{
+    color: white;
+    font-family: var(--fonte-titulo);
+}
+div#imagens>img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: left;
+}
+
+div#imagens>img:hover{
+    transition-duration: .5s;
+    transform: scale(1.5);
+    object-fit: fill;
+}
+
+@media screen and (min-width:992px){
+    #Navbar{
+    height: 194px !important;
+    background-color: #1f202200;
+    }
+}
+@media screen and (max-width:992px){
+    #Navbar{
+    height: 146px !important;
+    background-color: #1f202200;
+    }
+}
+
+@media screen and (min-width:1500px){
+    .imagem{
+        display: inline-flex;
+        width: 100%;
+        height: 360px;
+        margin-top: 0px !important;
+        object-fit: cover;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .img-fluid{
+        width: 400px !important;
+        height: 100% !important;
+        object-fit: cover;
+        border-radius: 0px 0px 0px 50px;
+    }
+
+    .texto{
+        text-align: center;
+        font-size: 40px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        padding: 10px;
+        height: 100%;
+        margin-top: 6%;
+        color: white;
+        border-radius: 3px;
+    }
+
+    h1{
+        margin-top: 20px;
+        font-size: 40px;
+        font-family: var(--fonte-titulo);
+    }
+
+    p{
+        font-family: var(--fonte-Marvel);
+        font-size: 50px;
+    }
+
+    div#imagens{
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    div#imagens>img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+    
+    div#imagens>img:hover{
+        transition-duration: .5s;
+        transform: scale(1.2);
+    }
+}
+
+

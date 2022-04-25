@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@1,300&family=Noto+Serif:ital@1&family=Permanent+Marker&display=swap');
+
+:root{
+    --cor-fundo: rgba(32, 30, 30, 0.932);
+    --cor-letras: rgb(190, 49, 49);
+    --fonte-Marvel:'Josefin Sans', sans-serif;
+    --fonte-normal:'Noto Serif', serif;
+    --fonte-titulo:'Permanent Marker', cursive;
+    --fonte-destaque:'Bebas Neue', cursive;
+}
+#imagem3x1{
+    object-fit: cover !important;
+}
+
+#Navbar{
+    height: 180px;
+}
+
+.estilo {
+    font-size: 30px ; 
+    font-family: var(--fonte-titulo) ;
+    text-align: center;
+    color: aliceblue;
+}
+#carouselExampleCaptions{
+    margin: auto;
+   width: 80% !important;
+   object-fit: cover;
+   object-position: center;
+}
+.col.order-1:hover{
+    color:rgb(190, 49, 49);
+    transform: scale(1.1);
+    transition-duration: .3s;
+}
+
+.estilo1{
+    background-color: black;
+}
