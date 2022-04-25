@@ -139,6 +139,26 @@ button.navbar-toggler{
     height: 144px;
     background-color: #1f202200;
     }
+      
+    img.ImagemPrincipal{
+        width: 200px !important;
+        height: 230px;
+        margin: 20px;
+    }
+    .ficha>p{
+        font-size: 13px;
+    }
+    div.ficha>h1{
+        font-size: 25px !important;
+    }
+    img.relacionadas{
+        width: 120px;
+        height: 200px;
+        object-fit: cover;
+        object-position: top;
+        margin-left: 10px;
+    }
+    }
 }
 /*Footer*/
   footer{
