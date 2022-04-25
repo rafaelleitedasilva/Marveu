@@ -172,7 +172,7 @@ button.navbar-toggler{
 
 /*BARRA DE ROLAGEM*/
 body::-webkit-scrollbar {
-    width: 10px;               
+    width: 2px;               
   }
   
   body::-webkit-scrollbar-track {
