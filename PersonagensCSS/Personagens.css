@@ -156,6 +156,12 @@ div#imagens>img:hover{
     #imagens >img{
         margin: 2px 2px 2px 2px;
     }
+    img.img-fluid{
+        width: 150px !important;
+        height: 100% !important;
+        object-fit: cover;
+        border-radius: 0px 0px 0px 50px;
+    }
 }
 
 @media screen and (min-width:1500px){
