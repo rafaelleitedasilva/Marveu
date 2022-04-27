@@ -32,7 +32,7 @@ body{
     margin-bottom: 10px!important
 }
 h1{
-    font-family: var(--fonte-titulo);
+    font-family: var(--fonte-destaque);
 }
 h6{
     font-family: var(--fonte-Marvel);
@@ -58,26 +58,25 @@ p{
     background-color: #1f2022;
     }
 }
-.estilo1{
+div.estilo1{
     font-size:20px;
     text-align: center;
     margin:0 auto;
     width: 100%;
     /* border-radius: 32px; */
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
     color:white;
     background-color: rgb(20, 15, 15);
 }
-.estilo2{
+div.estilo2{
     font-size:50px;
     text-align: center;
     margin:0 auto;
-    width: 800px;
-    border-radius: 32px;
-    font-family:'Trebuchet MS',;
+    width: 100% !important;
     color:white;
     background-color:rgb(95, 92, 92);
 }
+
 .estilo6{
     background-color: var(--cor-fundo);
     margin: auto;
@@ -136,8 +135,7 @@ p{
         font-size:50px;
         text-align: center;
         margin:0 auto;
-        width: 800px;
-        border-radius: 32px;
+        width: 100%;
         font-family:'Trebuchet MS',;
         color:white;
         background-color:rgb(167, 109, 179);
