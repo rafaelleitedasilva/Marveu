@@ -1,0 +1,196 @@
+@charset "UTF-8";
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@1,300&family=Noto+Serif:ital@1&family=Permanent+Marker&display=swap');
+
+:root{
+    --cor-fundo: rgb(32, 30, 30);
+    --cor-letras: rgb(190, 49, 49);
+    --fonte-Marvel:'Josefin Sans', sans-serif;
+    --fonte-normal:'Noto Serif', serif;
+    --fonte-titulo:'Permanent Marker', cursive;
+    --fonte-destaque:'Bebas Neue', cursive;
+}
+
+.gif{
+    height: 400px;
+    margin-top: 50px;
+    box-shadow: 1px 2px 5px black;
+    object-fit: cover;
+}
+
+body{
+    background-color: var(--cor-fundo) !important;
+}
+.carouselExampleCaptions{
+    margin-bottom: 10px!important
+}
+h1{
+    font-family: var(--fonte-titulo);
+}
+h6{
+    font-family: var(--fonte-Marvel);
+}
+p{
+    font-family: var(--fonte-titulo);
+}
+.d-block.w-100{
+    height: 400px;
+    object-fit: cover;
+}
+
+/*Representação da Navbar Fisicamente*/
+@media screen and (min-width:992px){
+    #Navbar{
+    height: 136px !important;
+    background-color: #1f2022;
+    }
+}
+@media screen and (max-width:992px){
+    #Navbar{
+    height: 132px;
+    background-color: #1f2022;
+    }
+}
+.estilo1{
+    font-size:20px;
+    text-align: center;
+    margin:0 auto;
+    width: 100%;
+    /* border-radius: 32px; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+    background-color: rgb(20, 15, 15);
+}
+.estilo2{
+    font-size:50px;
+    text-align: center;
+    margin:0 auto;
+    width: 800px;
+    border-radius: 32px;
+    font-family:'Trebuchet MS',;
+    color:white;
+    background-color:rgb(95, 92, 92);
+}
+.estilo6{
+    background-color: var(--cor-fundo);
+    margin: auto;
+}
+
+    .cards{
+    display: grid;
+    margin: 0 auto !important;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr ));
+    grid-gap: 30px;
+    }
+    
+    .cards{
+        max-width: 1080px;
+        margin: 0 auto 30px;
+    }
+    
+    article{
+        position: relative;
+    }
+    
+    .article-img{
+        display: inline-block;
+        width: 100%;
+        margin: 0 auto;
+        height: 300px;        
+        object-fit: cover;
+    }
+
+    .article-title{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding: 5px;
+        background-color: var(--cor-letras);
+        margin-top: 10px;
+    }
+    /*\ .article-title{
+        position: absolute;
+        bottom: 0;
+        width: 90%;
+        padding: 8px;
+        color: white;
+        background-color: var(--cor-letras);
+        left:19%;
+        
+    } */
+    .estilo3{
+        font-size:50px;
+        width: 800px;
+        font-family:cursive;
+        color:white;
+        text-align: center;
+    }
+    .estilo4{
+        font-size:50px;
+        text-align: center;
+        margin:0 auto;
+        width: 800px;
+        border-radius: 32px;
+        font-family:'Trebuchet MS',;
+        color:white;
+        background-color:rgb(167, 109, 179);
+    }
+    .estilo5{
+        font-size:50px;
+        text-align: center;
+        margin:20px auto;
+        width: 800px;
+        padding: 20px;
+        border-radius: 5px;
+        color:white;
+        background: radial-gradient( rgb(32, 30, 30), rgba(0, 0, 255, 0.494));
+    }
+    .miles{
+       font-size: 25px ;
+       text-align: center;
+       margin:0 auto;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       color:white;
+    }
+    .perso{
+        background-color: white;
+        margin:0 auto;
+        text-align: center;
+    }
+    .letra{
+        font-family: fantasy;
+        margin:0 auto;
+        color:white;
+        font-size:50px;
+        text-align: center;
+    }
+    .bttnn {
+    
+        color: black;
+        width: 300px;
+        height: 45px;
+        border-radius: 20px;
+        border-color: rgb(182, 18, 18);
+        font-family:var(--fonte-destaque);
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+    
+    .bttnn:hover{
+        background-color: rgb(182, 18, 18);
+        transition: backgound-color 1.5s;
+    }
+    
+    .tabhome2{
+        margin: 0 auto;
+        color: aqua;
+    }
+    
+    .tabhome2 img {
+        width: 300px;
+        height: 300px;
+        padding-left: 15px;
+    }
+    

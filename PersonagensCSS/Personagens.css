@@ -219,7 +219,7 @@ div#imagens>img:hover{
     
     div#imagens>img:hover{
         transition-duration: .5s;
-        transform: scale(1.2);
+        transform: scale(2);
     }
 }
 
