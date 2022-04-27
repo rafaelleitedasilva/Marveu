@@ -13,7 +13,20 @@ body{
   padding: 0;
   text-align: center;
 }
-
+@media screen and (max-width:992px){
+  #Navbar{
+  height: 144px;
+  background-color: #1f202200;
+  }
+}
+/*Representação da Navbar Fisicamente*/
+@media screen and (min-width:992px){
+  #Navbar{
+  height: 208px;
+  background-color: #1f202200;
+  }
+  
+}
 /*botão*/
 .bttnn {
     background-color: rgba(80, 54, 54, 0.863);
