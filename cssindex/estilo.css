@@ -12,14 +12,14 @@
 }
 
 .gif{
-    height: 200px;
+    height: 80%;
     margin-top: 20px;
     box-shadow: 1px 2px 5px black;
     object-fit: cover;
 }
 
 .gif1{
-    height: 400px;
+    height: 60%;
     margin-top: 50px;
     box-shadow: 1px 2px 5px black;
     object-fit: cover;
@@ -49,19 +49,21 @@ p{
 @media screen and (min-width:992px){
     #Navbar{
     height: 136px !important;
-    background-color: #1f2022;
+    background-color: transparent;
+    
     }
 }
 @media screen and (max-width:992px){
     #Navbar{
-    height: 132px;
-    background-color: #1f2022;
+    height: 122px !important;
+    background-color: transparent;
     }
 }
 div.estilo1{
     font-size:20px;
     text-align: center;
     margin:0 auto;
+    padding-top: 10px;
     width: 100%;
     /* border-radius: 32px; */
 
@@ -124,6 +126,9 @@ div.estilo2{
         left:19%;
         
     } */
+    .hoaranha{
+        width: 60vw;
+    }
     .estilo3{
         font-size:50px;
         width: 800px;
@@ -144,7 +149,7 @@ div.estilo2{
         font-size:50px;
         text-align: center;
         margin:20px auto;
-        width: 800px;
+        width: 95%;
         padding: 20px;
         border-radius: 5px;
         color:white;

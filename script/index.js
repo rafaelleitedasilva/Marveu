@@ -1,3 +1,11 @@
+function Esconde(){
+  $('div.Index').hide()
+  $('div.Personagens').hide()
+  $('div.Jogos').hide()
+  $('div.HQs').hide()
+  $('div.Filmes').hide()
+}
+
 function MostrarIndex() {
     $('div.Index').show()
     $('div.Personagens').hide()
