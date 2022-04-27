@@ -9,42 +9,49 @@
     --fonte-titulo:'Permanent Marker', cursive;
     --fonte-destaque:'Bebas Neue', cursive;
 }
-a{
-    text-decoration: none !important;
-}
 #imagem3x1{
     object-fit: cover !important;
-}
-
-@media screen and (max-width:990px) {
-    #Navbar{
-        height: 110px !important;
-        margin-bottom: 10px;
-    }
 }
 
 #Navbar{
     height: 180px;
 }
-
+.row{
+    width: 100% !important;
+}
 .estilo {
     font-size: 30px ; 
-    font-family: var(--fonte-titulo) ;
-    text-align: center;
+    font-family: var(--fonte-titulo);
     color: aliceblue;
 }
 #carouselExampleCaptions{
-    margin: auto;
-   width: 80% !important;
+    margin: 0 auto;
+   width: 90% !important;
    object-fit: cover;
    object-position: center;
 }
-.col.order-1:hover{
+
+img:hover{
     color:rgb(190, 49, 49);
     transform: scale(1.1);
     transition-duration: .3s;
+    margin-bottom: 20px;
+}
+.col.order-1{
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .estilo1{
-    background-color: rgb(32, 30, 30);
+    background-color: rgb(0, 0, 0);
+}
+a {
+     text-decoration: none; 
+     
+   /* }
+.main-content{
+    display: grid;
+    grid-template-columns: repeat(3,445px);
+   }
+    */
 }

@@ -19,12 +19,19 @@ a{
 }
 
 /*EDITANDO A SEGUNDA NAVBAR*/
-.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top{
-    display: flex !important;
-    justify-content: center !important;
-    width: 100% !important;
-    margin-top: 127.5px;
+nav.navbar.navbar-light.bg-light.fixed-top, .navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top{
+    background-color: var(--cor-fundo)!important;
+    
 }
+.navbar.navbar-light.bg-light.fixed-top
+.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top{
+    /*TIREI O !IMPORTANT*/
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 128.5px;
+}
+
 
 /*EDITANDO A PAGINA*/
 
