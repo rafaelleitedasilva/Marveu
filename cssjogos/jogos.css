@@ -16,6 +16,13 @@ a{
     object-fit: cover !important;
 }
 
+@media screen and (max-width:990px) {
+    #Navbar{
+        height: 110px !important;
+        margin-bottom: 10px;
+    }
+}
+
 #Navbar{
     height: 180px;
 }

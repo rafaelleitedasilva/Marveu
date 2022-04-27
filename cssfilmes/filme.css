@@ -7,20 +7,127 @@ body{
 }
 
 .d-block.w-100{
-    height: 900px;
+    width: 800px;
+    height: 800px;
     object-fit: cover;
 }
 
 /*Representação da Navbar Fisicamente*/
 @media screen and (min-width:992px){
     #Navbar{
-    height: 198px;
+    height: 168px;
     background-color: #1f2022;
     }
 }
 @media screen and (max-width:992px){
     #Navbar{
-    height: 140px;
+    height: 110px;
     background-color: #1f2022;
     }
+}
+
+h5.offcanvas-titleFilme{
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 60px;
+    text-align: center;
+    background-color: rgb(190, 49, 49);
+}
+
+/*Cards*/
+
+.card-title{
+    font-family: var(--fonte-destaque);
+}
+
+.card{
+    border-color: rgb(190, 49, 49);
+    border-width: 5px;
+    border-radius: 10px;
+    align-content: center;
+    width: 500px;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-body{
+    background-color: #1f2022;
+    color: ivory;
+    text-align: center;
+}
+
+.list-group-item{
+    background-color: #1f2022;
+    color: ivory;
+    text-align: center;
+}
+
+.cardbotao a{
+    text-decoration: none;
+    color: ivory;
+    font-family: var(--fonte-destaque--);
+    width: 100%;
+}
+
+.cardbotao:hover{
+    background-color: white;
+}
+
+.cardbotao:hover a{
+    color: black;
+}
+
+.cardbotao{
+    width: 100%;
+    height: 35px;
+    background-color: rgb(190, 49, 49);
+    border-color: rgb(190, 49, 49);
+    border-radius: 15px;
+}
+
+.cardtable{
+    margin: auto;
+    width: 75%;
+}
+
+/*Trailer*/
+
+.divfilme{
+    text-align: center;
+}
+
+.tvid{
+    width: 105%;
+}
+
+.textotrailer h5, h3{
+    color: ivory;
+}
+
+.textotrailer p{
+    color: ivory;
+    text-align: justify;
+}
+
+.textotrailer{
+    padding: 5%;
+}
+
+/**/
+
+.listaFilmes{
+    background-color: white;
+}
+
+.listaFilmes p{
+    text-align: center;
+    font-size: 30px;
+    font-family: var(--fonte-destaque);
+}
+
+.listaFilmes h5{
+    font-family: var(--fonte-destaque);
+    font-size: 60px;
+    text-align: center;
 }
