@@ -22,7 +22,7 @@ body{
 /*Representação da Navbar Fisicamente*/
 @media screen and (min-width:992px){
   #Navbar{
-  height: 208px;
+  height: 172px;
   background-color: #1f202200;
   }
   
