@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body{
-    background-color: black;
+    background-color: rgb(32, 30, 30);
 }
 .carouselExampleCaptions{
     margin-bottom: 20px!important
