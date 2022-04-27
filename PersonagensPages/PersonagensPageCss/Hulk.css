@@ -76,12 +76,11 @@ nav.navbar.navbar-light.bg-light.fixed-top, .navbar.navbar-expand-lg.navbar-ligh
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 128.5px;
 }
 
 #container-fluid{
     text-align: center !important;
-    width: 800px;
+    width: 100% !important;
     margin: auto;
     background-color: transparent !important;
 }

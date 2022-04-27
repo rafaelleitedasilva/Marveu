@@ -7,6 +7,12 @@
     height: 600px;
     object-fit: cover;
 }
+.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top{
+  /*TIREI O !IMPORTANT*/
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 
 body{
   background-color: rgb(49, 49, 49); /*cor de fundo da pág*/

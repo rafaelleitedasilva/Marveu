@@ -23,7 +23,6 @@ nav.navbar.navbar-light.bg-light.fixed-top, .navbar.navbar-expand-lg.navbar-ligh
     background-color: var(--cor-fundo)!important;
     
 }
-.navbar.navbar-light.bg-light.fixed-top
 .navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top{
     /*TIREI O !IMPORTANT*/
     display: flex;

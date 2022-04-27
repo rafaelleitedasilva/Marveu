@@ -11,6 +11,14 @@
     --fonte-destaque:'Bebas Neue', cursive;
 }
 
+.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top{
+    /*TIREI O !IMPORTANT*/
+    display: flex;
+    justify-content: center;
+    width: 100% !important;
+    margin-top: 128.5px;
+}
+
 .gif{
     height: 80%;
     margin-top: 20px;
