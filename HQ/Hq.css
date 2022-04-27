@@ -193,18 +193,18 @@ margin-bottom: 20px;
 }
 
 .EsHq{
-  position: absolute;
-  top: -210px;
-  left: 790px;
-  transform: translate(-50%, 60%);
-  padding: 150px;
-  box-sizing: border-box;
+  display: block;
+  width: 50%;
+  height: 600px;
+  margin-top: 40px !important;
+  margin: auto;
+  padding: 90px;
   background: rgb(112, 112, 112) ;
   border-radius: 14px;
   box-shadow: 0 20px 10px rgba(0, 0, 0, 0.5);
-  display:flex;
 }
-.imgEsHq .content{
-padding-left: 10px;
+.imgEsHq, .content{
+  text-align: center;
+  margin: auto;
 }
 
