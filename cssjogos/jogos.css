@@ -9,6 +9,9 @@
     --fonte-titulo:'Permanent Marker', cursive;
     --fonte-destaque:'Bebas Neue', cursive;
 }
+a{
+    text-decoration: none !important;
+}
 #imagem3x1{
     object-fit: cover !important;
 }
