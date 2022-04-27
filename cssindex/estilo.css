@@ -12,6 +12,13 @@
 }
 
 .gif{
+    height: 200px;
+    margin-top: 20px;
+    box-shadow: 1px 2px 5px black;
+    object-fit: cover;
+}
+
+.gif1{
     height: 400px;
     margin-top: 50px;
     box-shadow: 1px 2px 5px black;
@@ -158,7 +165,7 @@ p{
         text-align: center;
     }
     .letra{
-        font-family: fantasy;
+        background-color: var(--cor-letras);
         margin:0 auto;
         color:white;
         font-size:50px;
