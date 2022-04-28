@@ -65,3 +65,11 @@ a {
    }
     */
 }
+p.carrossel{
+    font-size: 20px;
+}
+
+h5.carrossel{
+    font-size: 30px;
+    font-family: var(--fonte-destaque);
+}
