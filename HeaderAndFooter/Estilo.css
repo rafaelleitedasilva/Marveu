@@ -85,7 +85,7 @@ button.navbar-toggler{
 /*Representação da Navbar Fisicamente*/
 @media screen and (min-width:992px){
     #Navbar{
-    height: 151px;
+    height: 191px ;
     background-color: #1f2022;
     }
 }

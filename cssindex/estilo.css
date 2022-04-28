@@ -48,7 +48,7 @@ p{
 /*Representação da Navbar Fisicamente*/
 @media screen and (min-width:992px){
     #Navbar{
-    height: 16px !important;
+    height: 170px !important;
     background-color: transparent;
     
     }
