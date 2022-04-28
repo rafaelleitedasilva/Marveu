@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@1,300&family=Noto+Serif:ital@1&family=Permanent+Marker&display=swap');
 
 :root{
-    --cor-fundo: rgba(32, 30, 30, 0.932);
+    --cor-fundo: rgba(32, 30, 30);
     --cor-letras: rgb(190, 49, 49);
     --fonte-Marvel:'Josefin Sans', sans-serif;
     --fonte-normal:'Noto Serif', serif;
@@ -12,9 +12,19 @@
 #imagem3x1{
     object-fit: cover !important;
 }
-
+nav.navbar.navbar-light.bg-light.fixed-top, .navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top{
+    background-color: var(--cor-fundo)!important;
+    
+}
+#offcanvasNavbar{
+    background-color: var(--cor-fundo);
+    color: var(--cor-letras) !important;
+}
 #Navbar{
     height: 180px;
+}
+body{
+    background-color: var(--cor-fundo) !important;
 }
 .row{
     width: 100% !important;
